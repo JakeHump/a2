@@ -1,0 +1,16 @@
+h1, h2, h3 {
+	text-align:center;
+}
+
+.container {
+	width:50%;
+	min-width:600px;
+	margin-bottom:50px;
+	text-align:center;
+}
+
+img {
+	display:block;
+	margin:auto;
+	width:50%;
+}
