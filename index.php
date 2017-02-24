@@ -47,8 +47,6 @@
       require("Tools.php");
       require("Scrabble.php");
 
-//      DWA\Tools::dump($_GET);
-
       if(isset($_GET['calculate'])) {
           # First, sanitize the data to protect from security issues
           # Next, set the variables that will be passed
