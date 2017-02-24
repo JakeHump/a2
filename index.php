@@ -17,7 +17,7 @@
                     <header>
                         <h1>Scrabble Word Score Calculator</h1>
                         <img src="images/scrabble.jpg" alt="scrabble">
-                        </br>
+                        <br>
                         <form method='GET' action='index.php'>
                             <div>
                                 <label>Enter your word (Required):  <input type='text' name='searchTerm'></label>
