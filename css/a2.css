@@ -1,16 +1,53 @@
 h1, h2, h3 {
-	text-align:center;
+	  text-align:center;
 }
 
 .container {
-	width:50%;
-	min-width:600px;
-	margin-bottom:50px;
-	text-align:center;
+	  width:50%;
+		min-width:600px;
+		margin-bottom:50px;
+		text-align:center;
 }
 
 img {
-	display:block;
-	margin:auto;
-	width:50%;
+    display:block;
+		margin:auto;
+		width:50%;
+}
+
+label {
+		display: block;
+		padding: 5px;
+}
+
+input {
+		vertical-align: baseline;
+		position: relative;
+}
+
+#choices {
+    color: navy;
+		display:block;
+		margin:auto;
+		width:50%;
+		font-size: 125%;
+		font: bold;
+}
+
+#negres {
+    color: red;
+		display:block;
+		margin:auto;
+		width:50%;
+		font-size: 125%;
+		font: bold;
+}
+
+#posres {
+    color: green;
+		display:block;
+		margin:auto;
+		width:50%;
+		font-size: 125%;
+		font: bold;
 }
