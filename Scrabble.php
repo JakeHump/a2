@@ -8,14 +8,14 @@ class Scrabble {
     public function __construct($word, $bonus, $bingo) {
       if(strlen($word) <= 7 and strlen($word) >=2 and ctype_alpha($word) ) {
           $word=strtolower($word);
-          echo '<div class=\'row\' id=\'posres\'><div class=\'twelve columns\'><p>';
-          echo 'The result is ' .$this->consume($word, $bonus, $bingo) .'.';
-          echo '</p></div></div>';
+          echo "<div class=\"row\" id=\"posres\"><div class=\"twelve columns\"><p>";
+          echo "The result is " .$this->consume($word, $bonus, $bingo) .".";
+          echo "</p></div></div>";
       } # check to see if the word is a valid length for scrabble and that it is text
       else {
-          echo '<div class=\'row\' id=\'negres\'><div class=\'twelve columns\'><p>';
-          echo $word .' is not a valid input.  The input must be between 2 and 7 letters long.';
-          echo '</p></div></div>';
+          echo "<div class=\"row\" id=\"negres\"><div class=\"twelve columns\"><p>";
+          echo $word ." is not a valid input.  The input must be between 2 and 7 letters long.";
+          echo "</p></div></div>";
       } # notify the input did not meet the requirement
     }
     /**

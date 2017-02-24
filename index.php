@@ -62,9 +62,9 @@
           else {
               $bingo='unchecked';
           }
-          echo '<div class=\'row\' id=\'choices\'><div class=\'twelve columns\'><p>';
-          echo 'You searched for '.$searchTerm .', the Bonus is ' .$bonus .', and bingo is ' .$bingo .'.';
-          echo '</p></div></div>';
+          echo "<div class=\"row\" id=\"choices\"><div class=\"twelve columns\"><p>";
+          echo "You searched for ".$searchTerm .", the Bonus is " .$bonus .", and bingo is " .$bingo .".";
+          echo "</p></div></div>";
 
           # Create an instance of Scrabble to calculate
           new Scrabble($searchTerm, $bonus, $bingo);
