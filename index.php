@@ -21,6 +21,7 @@
                         <form method='GET' action='index.php'>
                             <div>
                                 <label>Enter your word (Required):  <input type='text' name='searchTerm'></label>
+                                <p>The word must be all letters and no numbers.  Between 2 and 7 characters are expected. </p>
                                 <p>Scroll down for results, after calculating. </p>
                                 <h3>Bonus Points</h3>
                                 <label for="none"><input type="radio" name="bonus" id="none" value="none" checked="checked"/> None</label>
